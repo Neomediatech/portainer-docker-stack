@@ -25,7 +25,7 @@ services:
     ports:
       - "9000:9000"
     volumes:
-      - /srv/docker/containers/portainer/data:/data
+      - /srv/data/docker/containers/portainer/data:/data
     networks:
       - agent_network
     deploy:
