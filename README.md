@@ -14,6 +14,6 @@ This docker-compose.yml file is customized for our needs. Original file is from 
 * We use /srv/data/docker/var instead of /var/lib/docker, then keep attention on paths in this file
 
 ## Usage
-* curl -L https://raw.githubusercontent.com/Neomediatech/portainer-docker-stack/master/docker-compose.yml -o portainer-agent-stack.yml
-* docker stack deploy --compose-file=portainer-agent-stack.yml Portainer
+* `curl -L https://raw.githubusercontent.com/Neomediatech/portainer-docker-stack/master/docker-compose.yml -o portainer-agent-stack.yml`
+* `docker stack deploy --compose-file=portainer-agent-stack.yml Portainer`
 * access your Portainer stack just deployed with a browser to http://ip-of-your-docker-host:9000
