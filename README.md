@@ -6,8 +6,10 @@ This docker-compose.yml file is customized for our needs. Original file is from 
 
 ## Requirements
 * Docker initialized as swarm :
+
 `docker swarm init`
 * Directory /srv/data/docker/containers/portainer/data created :
+
 `mkdir -p /srv/data/docker/containers/portainer/data created`
 * We use /srv/data/docker/var instead of /var/lib/docker, then keep attention on paths in this file
 
