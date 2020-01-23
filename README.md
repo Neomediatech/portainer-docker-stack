@@ -22,4 +22,5 @@ Portainer keep track of stack create in which swarm cluster, so if you create a 
 __What to do?__  
 Use [boltbrowser](https://github.com/br0xen/boltbrowser) to edit the portainer.db BoltDB database file, and delete all stacks.
 (First stop portainer container)  
-
+Press D (SHIFT + d) to delete the stack row. Repeat for all rows.  
+![](boltbrowser.png)
